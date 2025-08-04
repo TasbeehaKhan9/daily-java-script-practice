@@ -42,3 +42,128 @@
 
 
 //  console.log("according to your scores, your grades was:" , grades);
+
+
+// for (let i = 1; i <=100; i++) {
+//     console.log("MY NAME IS TASBEEHA");
+// }
+
+
+// CALCULATE SONME NUMBER
+
+// let sum  = 0
+// for (let i= 1; i<=5; i++ ){
+//     sum = sum +i;
+// }
+// console.log(sum);
+
+
+// print 1 to 5
+
+
+// for (let i =1; i <=5; i++){
+//     console.log("i =" , i );
+// }
+
+
+//  for (var i =1; i <=5; i++){
+//      console.log("i =" , i );
+//  }
+
+//   console.log("i =" , i );
+
+
+// while loop
+
+// let i = 1;
+// while(i <=10) {
+//     console.log("runn");
+//     i++;
+// }
+
+// false while loop
+
+// let i = 20;
+// while(i <=10) {
+//     console.log("tasbeeha");
+//     i++;
+// }
+
+
+// do while loop
+
+
+// let i = 11 ;
+// do{
+//     console.log("name tasbeeha");
+//     i++
+
+// }while (i <=10);
+
+
+// let i = 1 ;
+// do{
+//     console.log("name tasbeeha");
+//     i++
+
+// }while (i <=10);
+
+
+
+// for of loop 
+
+// for of(stings or arrays laganey key liye madad karta hai) 
+// for in
+
+
+// let sting = "tasbeeha"
+// for (let i of sting){
+//     console.log(i)
+// }
+
+
+
+// let sting = "my name is tasbeeha"
+// for (let i of sting){
+//     console.log(i)
+// }
+
+
+
+
+// let sting = "tasbeeha";
+
+// let length = 0
+
+// for (let i of sting){
+//     console.log(i)
+//     length++;
+
+// }
+// console.log("length size =" , length);
+
+
+
+
+// for in loop(object key liye use karey gai)
+
+// let student = {
+//     name: "tasbeeha",
+//     gpa:2.67,
+//     ispass:true,
+//     rollmo:128762387,
+// };
+// for(let i in student){
+//     console.log(i);
+// }
+
+
+// let student = {
+//     name: "tasbeeha",
+//     gpa:2.67,
+//     ispass:true,
+//     rollmo:128762387,
+// };
+// for(let i in student){
+//     console.log("key",i , "value =", student[i] );
+// }
