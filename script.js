@@ -188,7 +188,227 @@
 // console.log("according to your scores, your grade was:", grade);
 
 
-// class practicee
-for (var i=0 ; i <= 10 ; i++){
-    console.log(i);
-};
+// // class practicee
+// for (var i=0 ; i <= 10 ; i++){
+//     console.log(i);
+// };
+
+
+// table of 2
+
+// let table = prompt("genrate the table(2 to 10)");
+
+// table = Number(table) 
+
+
+// if(table >=2 && table<=10){
+//    for(let i=1 ; i<=10; i++){
+//     document.write(table + "×" + i + "=" + (table*i) + "<br>" );
+//    }
+// }else {
+//     document.write("please enter the number between 2 to 10.");
+// }
+
+
+// // var flag loops
+// // index number start with 0
+// // length is start with 1
+// var names=["hina","sana" , "warisha" , "iqra",[3,4,5]]
+// console.log(names[3])
+
+// // Step 3 – names[4][1] ka matlab:
+// // Ab tumne index 4 pe jo array mila uska index 1 wala element liya:
+
+// var names =["hina","sana" , "warisha" , "iqra",[3,4,5]]
+// console.log(names[4][1]);
+
+
+
+// 	// [3, 4, [true, false]] ← yeh ek inner array hai
+// var names = ["hina","sana" , "warisha" , "iqra",[3,4[true,false]]]
+
+// // names = ["hina",  "sana",  "warisha",  "iqra",  [3,     4,     [true, false]]]
+// // Index     0        1        2           3        ↑
+// //                                               names[4]
+
+
+
+// // [3,     4,     [true, false]]
+// //  0      1           2  ← yeh ek aur array hai
+
+
+
+// // [true, false]
+// //   0       1
+
+
+// console.log(names [4][2][1]);
+
+
+
+
+// array+loop
+
+// var names = ["hina","sana" , "warisha" , "iqra"]
+// for(var i=0 ; i<5; i++){
+//     console.log(names[i]);
+// }
+
+
+// var names = ["hina","sana" , "warisha" , "iqra" ,"tasbeeha", "","khan"]
+// for(var i=0 ; i<7; i++){
+//     console.log(names[i]);
+// }
+
+
+// var names =["hina","sana" , "warisha" , "iqra"]
+// for (var i=0; i < names.length  ; i++){
+//     console.log(names[i]);
+// }
+
+
+// // var scope
+
+// // break 
+
+// for (var i=0; i<4; i++){
+//     console.log(i);
+//     if (i ==2){
+//         break;
+//     }
+
+// }
+
+
+// // Execution flow:
+
+// // i = 0 → console.log(0) → if(0 == 2) ❌ false → loop continue
+
+// // i = 1 → console.log(1) → if(1 == 2) ❌ false → loop continue
+
+// // i = 2 → console.log(2) → if(2 == 2) ✅ true → break; → loop yahin stop 🚫
+
+// // i = 3 par kabhi jaata hi nahi, kyunki break ne loop tod diya.
+
+
+
+
+// for (var i=0; i<4; i++){
+//     console.log(i);
+//     break;
+// }
+
+// // Step-by-step samjho:
+
+// // i = 0 → console.log(0) print karega.
+
+// // Turant break; chalega → loop tod dega.
+
+// // Baaki i = 1, 2, 3 ka chance hi nahi aayega.
+
+
+
+
+// for(var i=0; i<4; i++){
+//     if (i<3){
+//         console.log(i);
+//         break;
+//     }
+// }
+
+
+// // i = 0 → (0 < 3) true → console.log(0) print karega
+
+// // Phir break; mil gaya → loop turant ruk jaayega
+
+// // Baaki i = 1, 2, 3 kabhi execute hi nahi honge
+
+
+
+// for (var i=0; i<4; i++){
+//     if(i<2){
+//         console.log(i);
+//         break;
+//     }
+// }
+
+
+// // Step-by-step execution:
+// // Loop start:
+
+// // i = 0
+
+// // Condition check: i < 4 → ✅ true, loop start hoga.
+
+// // If condition:
+
+// // Check: i < 2 → 0 < 2 ✅ true
+
+// // console.log(i) → print karega 0
+
+// // break; milte hi loop turant stop ho jaayega.
+
+// // Loop end:
+
+// // Baaki i = 1, 2, 3 kabhi execute hi nahi honge.
+
+
+
+
+
+// for(var i=0; i<4; i++){
+//     if (i>2){
+//         console.log(i);
+//         break;
+//     }
+// }
+
+
+
+// " " (space ke saath string) → true hoti hai
+
+// for(var i=0; i<4; i++){
+//     if(" "){
+//         console.log(i);
+//         break;
+//     }
+
+//     console.log(i);
+// }
+
+
+
+// "" (empty string) → false hoti hai
+
+
+// for(var i=0; i<4; i++){
+//     if(""){
+//         console.log(i);
+//         break;
+//     }
+
+//     console.log(i);
+// }
+
+
+
+
+// key points:
+// "" → bilkul khaali string (length = 0) → false
+
+// " " → ek space character (length = 1) → true
+
+
+// console.log(Boolean(""));  // false
+// console.log(Boolean(" ")); // true
+
+
+
+// for (var i=0; i<4; i++){
+//     if ("hi"){
+//         console.log(i);
+//         break;
+//     }
+//     console.log(i);
+// }
+
