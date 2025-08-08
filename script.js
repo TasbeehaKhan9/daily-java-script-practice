@@ -188,4 +188,7 @@
 // console.log("according to your scores, your grade was:", grade);
 
 
-
+// class practicee
+for (var i=0 ; i <= 10 ; i++){
+    console.log(i);
+};
