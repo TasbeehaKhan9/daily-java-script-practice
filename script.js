@@ -412,3 +412,118 @@
 //     console.log(i);
 // }
 
+
+// saturday class practice 9/8/2025
+
+
+// var userCity =prompt()
+// var arr =["karachi","lahore","islamabad","peshawar","quetta"]
+// for (var i=0; i<arr.length ; i++){
+//     if (userCity === arr [i]){
+//         console.log("Your City is Cleaned");
+
+    
+// } else {
+//     console.log("Need to be cleaned");
+// }
+// }
+
+
+
+// var userCity =prompt()
+// var arr=["karachi","lahore","islamabad","peshawar","quetta"]
+// var flag= false
+
+// for (var i =0; i < arr.length ; i++ ){
+//     if (userCity === arr[i]){
+//         console.log("Your City is the cleanest City");
+//         flag=true
+//     }
+// }
+// if (flag == false){
+//     console.log("your city is not cleaned");
+// }
+
+
+
+
+// nested loop
+
+// for (var i=0; i<4; i++ ){
+//     for (var j=0; j<3; j++){
+//         console.log(i,j);
+//     }
+// }
+
+
+// for (var i=0; i<4; i++ ){
+//     for (var j=0; j<3; j++){
+//         console.log(i,j);
+//     }
+//     break;
+// }
+
+
+
+// 2d array
+
+
+// var nums= [[1,2,3],[2,3,1]]
+// for (var i=0; i<nums.length; i++){
+//     console.log(i);
+// }
+
+
+// var nums =[[1,2,3],[6,3,1]]
+// for (var i=0; i<nums.length; i++){
+//     for(var j=0; j<nums[i].length; j++)
+//         console.log(nums[i][j])
+// }
+
+
+
+
+// var nums =[[1,2,3],[6,3,1,5]]
+// for (var i=0; i<nums.length; i++){
+//     for(var j=0; j<nums[i].length; j++)
+//         console.log(nums[i][j]*2)
+// }
+
+
+
+
+// var nums =[[1,2,3],[6,3,1,5]]
+// for (var i=0; i<nums.length; i++){
+//     for(var j=0; j<nums[i].length; j++)
+//         console.log(nums[i][j]/2)
+// }
+
+
+// var intro = "hi my name is tasbeeha";
+// var copy = intro.slice(13)
+// console.log(copy);
+
+
+
+// var name = "Tasbeeha"
+// console.log(name.toLowerCase());
+
+
+
+
+
+// var name = "Tasbeeha"
+// console.log(name.toUpperCase());
+
+
+
+// var name = "Tasbeeha"
+// name = name.toLowerCase()
+// console.log(name);
+
+
+
+
+// var abc = "hello world"
+// for (var i=0; i<abc.length; i++)
+//     console.log(abc[i]);
