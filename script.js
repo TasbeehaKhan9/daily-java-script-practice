@@ -527,3 +527,6 @@
 // var abc = "hello world"
 // for (var i=0; i<abc.length; i++)
 //     console.log(abc[i]);
+
+
+// last class practce 
