@@ -530,3 +530,40 @@
 
 
 // last class practce 
+
+
+//    if we want to show sana first letter capital
+
+
+/*var name = "sana"
+var newName= name.slice(0,1)
+console.log(newName);*/
+
+
+
+/*var name= "sana"
+var newName =name.slice(0,1);
+var remaining =name.slice(1);
+console.log(newName.toUpperCase()+remaining )*/
+
+
+// practice
+
+/*var name = "tasbeeha"
+var myName =name.slice(0,1);
+var capital =name.slice(1)
+console.log(myName.toUpperCase()+capital)*/
+
+
+// additional operator
+
+/*var num = 4;
+num +=  5;
+console.log(num);*/
+
+
+
+/*var num = "4";
+num +=  5;
+console.log(num);*/
+
