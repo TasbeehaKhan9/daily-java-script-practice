@@ -422,7 +422,7 @@
 //     if (userCity === arr [i]){
 //         console.log("Your City is Cleaned");
 
-    
+
 // } else {
 //     console.log("Need to be cleaned");
 // }
@@ -568,17 +568,150 @@ num +=  5;
 console.log(num);*/
 
 
-var name ="samiya khan";
-var result;
 
-for(var i=0; i<name.lenght; i++)
-if(i===0){
-    result =name [i].toUpperCae()
-    console.log(result);
 
-}else if(name[i]=== ""){
-    result += name [i+1].toUpperCae
-    console.log(result); 
-}else{
-    result+= name[i]
-}console.log(result);
+
+// var name = 'samiya khan'
+// var result;
+// var temp;
+
+
+// for (var i = 0; i < name.length; i++) {
+
+//     if (i === 0) {
+//         result = name[i].toUpperCase()
+
+//     }
+//     else if (name[i] === ' ') {
+//         temp = name[i + 1].toUpperCase()
+
+//     }
+//     else {
+//         if (temp) {
+//             result += temp
+//             temp = ''
+
+//         } else {
+//             result += name[i]
+//         }
+//     }
+
+
+
+
+// }
+
+// console.log(result);
+
+
+
+
+
+
+// var name = 'samiya khan'
+// var result;
+// var temp;
+// //8
+
+// for (var i = 0; i < name.length; i++) {
+
+
+//     if (i === 0) {
+//         result = name[i].toUpperCase()
+
+
+
+//     }
+//     else if (name[i] === ' ') {
+//         temp = name[i + 1].toUpperCase()
+
+//     }
+//     else {
+//         if (temp) {
+//             result += " " + temp
+//             temp = ''
+
+//         } else {
+//             result += name[i]
+//         }
+//     }
+// }
+
+// console.log(result);
+
+
+
+// indexof usko word key character key index number  ko print karwae ga
+
+/*var text = "hi my friend how are you ?"
+var result= text.indexOf("friend")
+console.log(result);
+
+// lastindexof ussi line key last word  key index number  ko print karwae ga
+
+var text = "hi my friend how are you ? hi my friend how are you ?"
+var result= text.lastIndexOf("friend")
+console.log(result);
+
+// charAt mein hum us index number  ko likhe gai   or print  character hoga
+
+var text = "hi my friend how are you ?"
+var result= text.charAt("4")
+console.log(result);
+
+
+
+var text = "hi my friend how are you ?"
+var result= text.replace("friend","student")
+console.log(result);
+
+
+
+var text = "hi my friend how are you ? hi my friend how are you"
+var result= text.replaceAll("friend","student")
+console.log(result);*/
+
+
+
+
+// rounding number
+
+
+/*var num = Math.round(6.4)
+console.log(num);
+
+var num = Math.round(6.7)
+console.log(num);
+
+var num = Math.ceil(6.3)
+console.log(num);
+
+var num = Math.floor(6.7)
+console.log(num);
+
+
+var num = Math.ceil(6.0)
+console.log(num);
+
+
+
+var num = Math.ceil(6.03)
+console.log(num);*/
+
+
+
+// randome number
+
+
+// var  num = Math.random()
+// console.log(num);
+
+// var  num = Math.round (Math.random())
+// console.log(num);
+
+// var  num = Math.round (Math.random()*6)
+// console.log(num);
+
+
+// var  num = Math.ceil (Math.random()*6)
+// console.log(num);
