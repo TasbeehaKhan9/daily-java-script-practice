@@ -567,3 +567,18 @@ console.log(num);*/
 num +=  5;
 console.log(num);*/
 
+
+var name ="samiya khan";
+var result;
+
+for(var i=0; i<name.lenght; i++)
+if(i===0){
+    result =name [i].toUpperCae()
+    console.log(result);
+
+}else if(name[i]=== ""){
+    result += name [i+1].toUpperCae
+    console.log(result); 
+}else{
+    result+= name[i]
+}console.log(result);
