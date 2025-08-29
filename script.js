@@ -715,3 +715,45 @@ console.log(num);*/
 
 // var  num = Math.ceil (Math.random()*6)
 // console.log(num);
+
+
+// var num = "123124"
+// console.log(Number(num));
+
+// var num = "123124a"
+// console.log(Number(num));
+
+// var num = "aaaaaaa"
+// console.log(Number(num));
+
+
+// var num = "aaaaaaa"
+// console.log(parseInt(num));
+
+
+// var num = "1.7324"
+// console.log(parseInt(num));
+
+
+
+// var num = "1.7324";
+// console.log(parseFloat(num)); 
+
+
+
+// var num = 17324;
+// console.log(toString(num)); 
+
+// // this one answer will occour in error
+
+
+// var num = 17324;
+// console.log(num.toString()); 
+
+
+// var num = 1.7324;
+// console.log(num.toFixed()); 
+
+
+// var num = 1.7324;
+// console.log(num.toFixed(4)); 
