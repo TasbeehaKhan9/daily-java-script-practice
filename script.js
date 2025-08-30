@@ -757,3 +757,17 @@ console.log(num);*/
 
 // var num = 1.7324;
 // console.log(num.toFixed(4)); 
+
+
+var nowmonth = new Date();
+var month  =["jan", "feb","marc","apirl","may","june","july","aug"];
+var monresult = nowmonth.getMonth();
+console.log(monresult);
+
+
+
+
+var nowmonth = new Date();
+var month  =["jan", "feb","marc","apirl","may","june","july","aug"];
+var monresult = nowmonth.getMonth();
+console.log(monresult);
