@@ -759,15 +759,76 @@ console.log(num);*/
 // console.log(num.toFixed(4)); 
 
 
-var nowmonth = new Date();
-var month  =["jan", "feb","marc","apirl","may","june","july","aug"];
-var monresult = nowmonth.getMonth();
-console.log(monresult);
+// var nowmonth = new Date();
+// var month  =["jan", "feb","marc","apirl","may","june","july","aug"];
+// var monresult = nowmonth.getMonth();
+// console.log(monresult);
 
 
 
 
-var nowmonth = new Date();
-var month  =["jan", "feb","marc","apirl","may","june","july","aug"];
-var monresult = nowmonth.getMonth();
-console.log(monresult);
+// var nowmonth = new Date();
+// var month  =["jan", "feb","marc","apirl","may","june","july","aug"];            (YEH HUMEIN CURRENT MONTH SHOW KARWAYE GA JO CHAL RAHA HAI...)
+// var monresult = nowmonth.getMonth();
+// console.log(monresult);                                                           (YEH HUMEIN CURRENT MONTH ka index no show karey ga...)
+
+
+
+// var nowmonth = new Date();
+// var month  =["jan", "feb","marc","apirl","may","june","july","aug","sep","oct"];
+// var monresult = nowmonth.getMonth();
+// console.log(monresult)
+
+
+
+// var newDate = new Date()
+// var weekDays = ["sun","mon","tue","wed","thur","fri","sat"]
+// //  (index number)    0    1     2      3    4      5    6 
+
+// var stringdate = newDate.getDay()
+// console.log(stringdate)
+
+
+// var newDate = new Date()
+// var stringdate = newDate.toString()
+// console.log(stringdate)
+
+
+
+
+
+
+// var newDate = new Date()
+// var weekDays = ["sun","mon","tue","wed","thur","fri","sat"]
+// //  (index number) 0    1     2      3    4      5    6 
+
+// var stringdate = newDate.getDay()
+// console.log(weekDays[4])
+
+
+
+// var newYear = new Date()
+// var year = newYear.getFullYear()
+// console.log(year)
+
+
+
+var newYear = new Date()
+var year = newYear.getMinutes()
+console.log(year)
+
+
+
+var newYear = new Date()
+var year = newYear.getMilliseconds()
+console.log(year)
+
+
+var newYear = new Date()
+var year = newYear.getSeconds()
+console.log(year)
+
+
+var newYear = new Date()
+var year = newYear.getTime()
+console.log(year)
