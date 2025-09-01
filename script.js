@@ -813,22 +813,30 @@ console.log(num);*/
 
 
 
-var newYear = new Date()
-var year = newYear.getMinutes()
-console.log(year)
+// var newYear = new Date()
+// var year = newYear.getMinutes()
+// console.log(year)
 
 
 
-var newYear = new Date()
-var year = newYear.getMilliseconds()
-console.log(year)
+// var newYear = new Date()
+// var year = newYear.getMilliseconds()
+// console.log(year)
 
 
-var newYear = new Date()
-var year = newYear.getSeconds()
-console.log(year)
+// var newYear = new Date()
+// var year = newYear.getSeconds()
+// console.log(year)
 
 
-var newYear = new Date()
-var year = newYear.getTime()
-console.log(year)
+// var newYear = new Date()
+// var year = newYear.getTime()
+// console.log(year)
+
+
+
+
+
+// var d = new Date();
+// d.setMonth(3)
+// console.log(d);
