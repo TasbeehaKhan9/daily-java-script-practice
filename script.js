@@ -839,12 +839,242 @@ console.log(num);*/
 // console.log(d);
 
 
-var nowdate = new Date ()
-var birthday = new Date("November 9,2025");
-document.write(birthday)
+// var nowdate = new Date ();
+// var birthday = ("November 9,2025");
+// console.log(birthday);
 
-var time = nowdate.getTime();
-var bt = birthday.getTime();
-var diff = bt-time;
-console.log(diff/(1000*60*60*24))
-console.log(Math.round(diff/(1000*60*60*24)))
+
+// var nowdate = new Date();
+// var birthday = new Date("November 10,2025");
+// console.log(birthday);
+
+// var time = nowdate.getTime();
+// var bt = birthday.getTime();
+// var diff = bt-time;
+// console.log(Math.round(diff/(1000*60*60*24)))
+
+
+
+// var date = new Date()
+// var birthday =("9-November-2025");
+// console.log(birthday)
+
+// var nowdate = new Date()
+// var birthday = new Date("November 10, 2025")
+// // console.log(birthday);
+
+// var time = nowdate.getTime()
+// var bt = birthday.getTime()
+// var diff = bt - time
+// console.log(Math.round(diff/(1000 * 60 * 60 *24)));
+
+
+
+
+
+// var date = new Date();
+// var birthday = ("9-november-2025");
+// console.log(birthday)
+
+
+// var nowdate = new Date()
+// var birthday = new Date("9-November-2025")
+// console.log(birthday);
+
+// var time = nowdate.getTime();
+// var bt= birthday.getTime()
+// var diff = bt - time;
+// console.log(Math.round(diff/(1000*60*60*24)))
+
+
+
+
+
+
+
+// function greeting (){
+//     var date = ("my name")
+
+
+// console.log(date);
+// }
+
+
+// greeting()
+
+
+
+
+// function greeting(){
+//     var date = ("my name")
+
+//     console.log(date)
+// }
+
+// greeting()
+// greeting()
+// greeting()    (THIS IS CALLED INVOKE )
+// greeting()
+
+
+
+
+
+// function add(){
+//     var  add = 2+6
+//     console.log(add)
+// }
+
+
+// add()
+
+
+
+
+// function addition(a,b){
+//     var add = a+b
+//     console.log(add)
+// }
+
+// addition(400,300)
+
+
+
+// function additions(a,b){
+//     var add = a%b
+//     console.log(add)
+// }
+
+// additions(400,300)
+
+
+
+
+// function additione(a,b){
+//     var add = a*b
+//     console.log(add)
+// }
+
+// additione(400,300)
+
+
+
+// function additionb(a,b){
+//     var add = a-b
+//     console.log(add)
+// }
+
+// additionb(400,300)
+// additionb(4000,300)
+
+
+
+// function xyz (a){
+// var text = a
+// return 10
+
+
+// }
+
+// console.log(xyz())
+
+
+// var fuc = "hgdfjkds"
+// function mess(a,b){
+// console.log(fuc)
+
+// var str = "hello"
+//     return str
+
+
+// }
+
+//     console.log(mess())
+
+
+    // var str ="gfdgkf"
+    // function mssg (a,b){
+    //     console.log(str);
+
+    //     var text ="hello"
+    //     return text
+    // }
+
+
+    // console.log(mssg())
+
+
+
+
+
+
+//     var str = 'hasdh'
+// function mssg(a,b){
+// console.log(str);
+
+//     var text ='hello'
+//   return text
+ 
+  
+// }
+
+// console.log(mssg())
+
+
+
+// var hi = "my name is tasbeeha"
+// function greeting(){
+//     console.log(hi)
+
+//     var course ="development"
+//     console.log(course)
+// }
+
+
+// greeting()
+
+
+
+
+// var name = "my name is tasbeeha "
+// function assignMyname(){
+//     console.log(name)
+
+
+//     var fatherName = "Anwar Khan"
+//     console.log(fatherName)
+// }
+
+// assignMyname()
+
+
+
+
+
+// var email = document.getElementById('email')
+// var password = document.getElementById('pass')
+// function signIn(){
+// var val =  email.value
+// if(val.includes('@')){
+//   console.log('valid');
+  
+// }else{
+//    email.style.backgroundColor = 'red'
+// }
+
+    
+// }
+
+
+// var  email =document.getElementById("email")
+// var password = document.getElementById("pass")
+// function signin(){
+//     var val = email.value
+//     if(val.includes("@")){
+//         console.log("Valid");
+
+//     }else{
+//         email.style.backgroundColor = "red"
+//     }
+
+// }
