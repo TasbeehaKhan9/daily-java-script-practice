@@ -834,9 +834,17 @@ console.log(num);*/
 // console.log(year)
 
 
-
-
-
 // var d = new Date();
 // d.setMonth(3)
 // console.log(d);
+
+
+var nowdate = new Date ()
+var birthday = new Date("November 9,2025");
+document.write(birthday)
+
+var time = nowdate.getTime();
+var bt = birthday.getTime();
+var diff = bt-time;
+console.log(diff/(1000*60*60*24))
+console.log(Math.round(diff/(1000*60*60*24)))
