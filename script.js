@@ -1082,59 +1082,59 @@ console.log(num);*/
 
 
 switch ("sunday") {
-    case "monday":
-        console.log()
+    case "sunday":
+        console.log("13214325fb")
         
         break;
 
 
 case "monday":
-        console.log()
+        console.log("sgfdgfdhdf")
         
         break;
 
 
 
         case "monday":
-        console.log()
+        console.log("cgfdgfhgfh")
         
         break;
 
 
 
         case "monday":
-        console.log()
+        console.log("gfdhfdhdh")
         
         break;
 
 
 
         case "monday":
-        console.log()
+        console.log("dfdstrgfdb")
         
         break;
 
 
 
         case "monday":
-        console.log()
+        console.log("dsgdsfhbfdhdgf")
         
         break;
 
 
 
         case "monday":
-        console.log()
+        console.log("hghgfjgfj")
         
         break;
 
 
         case "monday":
-        console.log()
+        console.log("hgfjnhgfjhg")
         
         break;
 
 
     default:
-        break;
+    
 }
