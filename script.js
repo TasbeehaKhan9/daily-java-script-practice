@@ -1078,3 +1078,63 @@ console.log(num);*/
 //     }
 
 // }
+
+
+
+switch ("sunday") {
+    case "monday":
+        console.log()
+        
+        break;
+
+
+case "monday":
+        console.log()
+        
+        break;
+
+
+
+        case "monday":
+        console.log()
+        
+        break;
+
+
+
+        case "monday":
+        console.log()
+        
+        break;
+
+
+
+        case "monday":
+        console.log()
+        
+        break;
+
+
+
+        case "monday":
+        console.log()
+        
+        break;
+
+
+
+        case "monday":
+        console.log()
+        
+        break;
+
+
+        case "monday":
+        console.log()
+        
+        break;
+
+
+    default:
+        break;
+}
