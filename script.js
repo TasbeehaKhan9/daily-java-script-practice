@@ -1248,3 +1248,28 @@ console.log(num);*/
 //     console.log("Mouse X:", e.clientX);       // X position
 //     console.log("Mouse Y:", e.clientY);       // Y position
 // }
+
+
+
+// var idGet = document.getElementById('one')
+// console.log(idGet);
+
+
+// var paraGet = document.getElementsByClassName('para')
+// console.log(paraGet);    //[]
+
+
+// var paraGet = document.getElementsByTagName('input')
+// console.log(paraGet);  
+
+
+// var paraGet = document.querySelector('input')
+// console.log(paraGet);  
+
+
+// var paraGet = document.querySelectorAll('.para')
+// console.log(paraGet);   []
+
+
+// var email = document.querySelector('#email')
+// var box = document.querySelector('#text')
