@@ -1081,60 +1081,170 @@ console.log(num);*/
 
 
 
-switch ("sunday") {
-    case "sunday":
-        console.log("13214325fb")
+
+
+
+// function greeting(){
+//     console.log("hello")
+// }
+
+
+// greeting()
+
+// switch ("sunday") {
+//     case "sunday":
+//         console.log("13214325fb")
         
-        break;
+//         break;
 
 
-case "monday":
-        console.log("sgfdgfdhdf")
+// case "monday":
+//         console.log("sgfdgfdhdf")
         
-        break;
+//         break;
 
 
 
-        case "monday":
-        console.log("cgfdgfhgfh")
+//         case "monday":
+//         console.log("cgfdgfhgfh")
         
-        break;
+//         break;
 
 
 
-        case "monday":
-        console.log("gfdhfdhdh")
+//         case "monday":
+//         console.log("gfdhfdhdh")
         
-        break;
+//         break;
 
 
 
-        case "monday":
-        console.log("dfdstrgfdb")
+//         case "monday":
+//         console.log("dfdstrgfdb")
         
-        break;
+//         break;
 
 
 
-        case "monday":
-        console.log("dsgdsfhbfdhdgf")
+//         case "monday":
+//         console.log("dsgdsfhbfdhdgf")
         
-        break;
+//         break;
 
 
 
-        case "monday":
-        console.log("hghgfjgfj")
+//         case "monday":
+//         console.log("hghgfjgfj")
         
-        break;
+//         break;
 
 
-        case "monday":
-        console.log("hgfjnhgfjhg")
+//         case "monday":
+//         console.log("hgfjnhgfjhg")
         
-        break;
+//         break;
 
 
-    default:
+//     default:
+// console.log("koi line nhi chali")
     
-}
+// }
+
+
+
+
+
+// var add = document.getElementById('add')
+// function checkProduct(e) {
+//     if ( e.code === 'Enter') {
+//         var userkiValue = e.target.value
+//         console.log(e);
+        
+//         var proList = ["facewash", 'cleanser', 'scrub', "foundation"]
+//         if (proList.indexOf(userkiValue) === -1) {
+//             add.innerHTML = 'product is not avalable'
+//             return userkiValue
+//         } else {
+//             add.innerHTML=  'available'
+//             return userkiValue
+//         }
+//     }
+
+
+
+// }
+// var usInp = checkProduct()
+// console.log(usInp);
+// var a = 'hello'
+// console.log(a);
+
+
+
+
+// while loop
+
+// var i = 0
+// while(i<10){
+//     console.log(i)
+//     i++
+// }
+
+
+
+//  var i = 5
+// while(i=16){    
+//     console.log(i)
+//     break;
+//     i++
+// }
+
+
+//  var i = 5
+// while(i=16){    
+  
+   
+//       console.log(i)
+//     i++
+//      break;
+// }
+
+//  Do while loop
+
+
+// var i =0 ;
+// do{
+//     console.log(i);
+//     i++
+// }while(i<=3)
+
+
+
+
+
+
+//     function sayHello(){
+//     alert("Hello Tasbeeha 👋");
+// }
+
+
+// function checkKey(e){
+//     console.log("Key pressed:", e.code);
+// }
+
+
+// function hoverIn(e){
+//     e.target.style.background = "lightgreen";
+// }
+
+
+// function hoverOut(e){
+//     e.target.style.background = "lightblue";
+// }
+
+
+// function showDetails(e){
+//     console.log("Event type:", e.type);       // mouseover
+//     console.log("Target element:", e.target); // <div>
+//     console.log("Mouse X:", e.clientX);       // X position
+//     console.log("Mouse Y:", e.clientY);       // Y position
+// }
