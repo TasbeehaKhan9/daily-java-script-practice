@@ -1251,25 +1251,65 @@ console.log(num);*/
 
 
 
-// var idGet = document.getElementById('one')
-// console.log(idGet);
+// var paraGet = document.getElementById("one")
+// console.log(paraGet)
+
+// var paraGet = document.querySelector("#prompt")
+// console.log(paraGet)
+
+// var paraGet = document.querySelectorAll(".para")
+// console.log(paraGet)
 
 
-// var paraGet = document.getElementsByClassName('para')
-// console.log(paraGet);    //[]
+// var paraGet = document.querySelectorAll("djsd")
+// console.log(paraGet)
 
 
-// var paraGet = document.getElementsByTagName('input')
-// console.log(paraGet);  
+
+// var input = document.querySelector("#inputbox");
+// var container =document.querySelector("#box");
 
 
-// var paraGet = document.querySelector('input')
-// console.log(paraGet);  
+// function val(){
+//     if(inputbox.value.length == 0){
+//         inputbox.style.backgroundColor = "yellow"
+//     inputbox.focus()
+//     box.style.display="block"
+//     box.innerHTML= "please add an email"
+// }else if(inputbox.value.indexOf("@gmail.com") === -1){
+// box.style.display="block"
+// box.innerHTML= "please add an valid email "
+// }else{
+//     box.style.display="block"
+//     inputbox.style.backgroundColor= "green"
+//     box.innerHTML= "sumbitted your email"
+
+// }
+// inputbox.value = " "
+// }
 
 
-// var paraGet = document.querySelectorAll('.para')
-// console.log(paraGet);   []
 
 
-// var email = document.querySelector('#email')
-// var box = document.querySelector('#text')
+// var pass = document.querySelector('#pass')
+// var box = document.querySelector('#checkBox')
+
+
+
+// function val(){
+// if(box.checked){
+//   pass.type = 'text'
+
+// }else{
+//   pass.type = 'password'   
+// }
+
+    
+// }
+
+// function logIn(){
+//     console.log(val)
+// } 
+
+
+// logIn()
