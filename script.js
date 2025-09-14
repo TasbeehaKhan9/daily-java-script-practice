@@ -1313,3 +1313,32 @@ console.log(num);*/
 
 
 // logIn()
+
+
+// function modes(){
+//     var clasDiv = document.getElementById('main')
+//    var  ixcon = document.getElementById('ixcon')
+  
+// //   console.log(clasDiv.classList);//[2 classes]
+// // console.log(clasDiv.className.includes('light'))
+// if(clasDiv.className.includes('light')){
+//     clasDiv.className += ' dark'
+//     clasDiv.classList.remove('light')
+//     ixcon.className = 'fa-regular fa-moon'
+//       ixcon.classList.remove('fa-solid')
+// }else{
+//     clasDiv.classList.remove('dark')
+//       clasDiv.className += ' light'
+//         ixcon.className = 'fa-solid fa-moon'
+//       ixcon.classList.remove('fa-regular')
+// }
+  
+ 
+ 
+// }
+//   var ul = document.getElementById('main')
+//     var task = document.getElementById('task')
+//  function val (){
+//   ul.innerHTML +='<li>' + task.value +'</li>'
+//   task.value = ''
+//  }
