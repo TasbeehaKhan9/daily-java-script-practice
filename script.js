@@ -1342,3 +1342,16 @@ console.log(num);*/
 //   ul.innerHTML +='<li>' + task.value +'</li>'
 //   task.value = ''
 //  }
+
+
+var para = document.querySelector("#para");
+var btn = document.querySelector("#clivck")
+ var empty = document.querySelector('#empty')
+
+ function click(){
+    para.setAttribute('class',"hello")
+ para.innerText += 'the branch of science concerned with the substances of which matter is composed, the investigation of their properties and reactions, and the use of such reactions to form new substances.'
+    btn.style.display= 'none'
+   empty.innerHTML =' <button onclick="showLesss()">show less</button>'
+
+ }
