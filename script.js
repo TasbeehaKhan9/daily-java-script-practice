@@ -1345,13 +1345,18 @@ console.log(num);*/
 
 
 var para = document.querySelector("#para");
-var btn = document.querySelector("#clivck")
- var empty = document.querySelector('#empty')
+var btn = document.querySelector("#clivck");
+var empty = document.querySelector("#empty");
 
- function click(){
-    para.setAttribute('class',"hello")
- para.innerText += 'the branch of science concerned with the substances of which matter is composed, the investigation of their properties and reactions, and the use of such reactions to form new substances.'
-    btn.style.display= 'none'
-   empty.innerHTML =' <button onclick="showLesss()">show less</button>'
+function showMore(){
+    para.setAttribute("class", "hello");
+    para.innerHTML += " The branch of chemistry which deals with the properties, composition and structure of matter.";
+    btn.style.display ="none";
+    empty.innerHTML = '<button onclick="showLess()">Show less</button>';
+}
 
- }
+function showLess(){
+    para.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi doloremque repellendus repudiandae!";
+    btn.style.display ="inline-block";
+    empty.innerHTML = "";
+}
