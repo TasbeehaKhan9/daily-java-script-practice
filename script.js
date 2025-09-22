@@ -1344,19 +1344,67 @@ console.log(num);*/
 //  }
 
 
-var para = document.querySelector("#para");
-var btn = document.querySelector("#clivck");
-var empty = document.querySelector("#empty");
+// var para = document.querySelector("#para");
+// var btn = document.querySelector("#clivck");
+// var empty = document.querySelector("#empty");
 
-function showMore(){
-    para.setAttribute("class", "hello");
-    para.innerHTML += " The branch of chemistry which deals with the properties, composition and structure of matter.";
-    btn.style.display ="none";
-    empty.innerHTML = '<button onclick="showLess()">Show less</button>';
+// function showMore(){
+//     para.setAttribute("class", "hello");
+//     para.innerHTML += " The branch of chemistry which deals with the properties, composition and structure of matter.";
+//     btn.style.display ="none";
+//     empty.innerHTML = '<button onclick="showLess()">Show less</button>';
+// }
+
+// function showLess(){
+//     para.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi doloremque repellendus repudiandae!";
+//     btn.style.display ="inline-block";
+//     empty.innerHTML = "";
+// }
+
+
+
+// var student = {
+//     fullNmae :"Tasbeeha",
+//     rollNo:1242,
+//     isPresent:true,
+//     Quiz:["html","css","java script"]
+// }
+
+
+// console.log(student.fullNmae.indexOf())
+
+// // console.log(document.childNodes[1].childNodes[1].firstChild);
+// console.log(document.childNodes[1].childNodes[1].lastChild.nodeName);
+// // console.log(para.hasAttribute('class')); true false
+// // console.log(para.getAttribute('class'));  --> value of attribute
+// console.log(para.attributes);
+
+
+
+
+
+
+
+
+
+
+
+function mssgSend(e) {
+    var userkiVlue = e.target.value
+    if (e.keyCode == 13) {
+        empty.innerHTML += `<li> ${userkiVlue} </li>`
+        e.target.value = ''
+console.log();
+
+        if (["hi", "hello", "how are you"].includes(userkiVlue)) {
+            setTimeout(function () {
+                empty.innerHTML += `<li> hello </li>`
+
+            }, 3000)
+        } 
+    }
+
+
+
 }
 
-function showLess(){
-    para.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi doloremque repellendus repudiandae!";
-    btn.style.display ="inline-block";
-    empty.innerHTML = "";
-}
