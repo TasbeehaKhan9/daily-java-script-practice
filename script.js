@@ -1385,26 +1385,45 @@ console.log(num);*/
 
 
 
+// teacher ka code
 
 
 
+// function mssgSend(e) {
+//     var userkiVlue = e.target.value
+//     if (e.keyCode == 13) {
+//         empty.innerHTML += `<li> ${userkiVlue} </li>`
+//         e.target.value = ''
+// console.log();
 
-function mssgSend(e) {
-    var userkiVlue = e.target.value
-    if (e.keyCode == 13) {
-        empty.innerHTML += `<li> ${userkiVlue} </li>`
-        e.target.value = ''
-console.log();
+//         if (["hi", "hello", "how are you"].includes(userkiVlue)) {
+//             setTimeout(function () {
+//                 empty.innerHTML += `<li> hello </li>`
 
-        if (["hi", "hello", "how are you"].includes(userkiVlue)) {
-            setTimeout(function () {
-                empty.innerHTML += `<li> hello </li>`
-
-            }, 3000)
-        } 
-    }
-
+//             }, 3000)
+//         } 
+//     }
 
 
-}
 
+// }
+
+
+// mera code
+
+
+// function mssgSend(e){
+//     var uservalue = e.target.value
+//     if(e.keyCode == 13){
+//         empty.innerHTML += `<li> ${uservalue} </li>`
+//         e.target.value = ''
+
+    
+  
+//     if(["hi","hello","how are you","pata nhi","orkuch"].includes(uservalue)){
+//         setTimeout(function (){
+//             empty.innerHTML += `<li> hello </li>`
+//         },3000)
+//     }
+// }
+// }
