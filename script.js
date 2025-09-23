@@ -1427,3 +1427,86 @@ console.log(num);*/
 //     }
 // }
 // }
+
+
+
+
+// Constructors
+
+// ek special function hota hai jo new object create karte hi 
+//  call hota hai aur object ko shuru ki values deta hai.
+
+
+// class Car {
+//     constructor(model = "Unknown", year = 2025) {
+//         this.model = model;
+//         this.year = year;
+//     }
+// }
+
+// let c1 = new Car("Corolla", 2022);
+// let c2 = new Car(); 
+
+// console.log(c1); // Car { model: "Corolla", year: 2022 }
+// console.log(c2); 
+
+
+
+
+
+
+
+
+
+
+
+// class Student {
+//     constructor(name, age) {
+//         this.name = name;
+//         this.age = age;
+//     }
+// }
+
+// let s1 = new Student("Ali", 20);
+// let s2 = new Student("Sara", 22);
+
+// console.log(s1);
+
+
+
+
+
+
+
+
+// function Student(name, age) {
+//     this.name = name;
+//     this.age = age;
+// }
+// let s1 = new Student("Ali", 20);
+// let s2 = new Student("Sara", 22);
+
+// console.log(s1.name); // Ali
+// console.log(s2.age);
+
+
+
+
+
+
+
+
+// class Box {
+//     constructor(name,color){
+//         this.name = name;
+//         this.color = color;
+//     }
+// }
+
+
+// let box1 = new Box ("toys","red");
+// let box2 = new Box ("books","blue");
+
+// console.log(box1)
+// console.log(box2)
+
