@@ -1510,3 +1510,166 @@ console.log(num);*/
 // console.log(box1)
 // console.log(box2)
 
+
+
+
+
+/*var inst = {
+    name:"tasbeeha",
+    city:"Karachi",
+    Area:"pib coloni",
+}
+
+// this method called dot notation
+
+console.log(inst.name);
+console.log(inst.city);
+console.log(inst.Area);
+
+
+var inst = {
+    name:"tasbeeha",
+    city:"Karachi",
+    Area:"pib coloni",
+}
+
+
+// this is called bracket notation
+console.log(inst[ "name"]);
+console.log(inst[ "city"]);
+console.log(inst[ "Area"]);*/
+
+
+// var student = {
+//   "full name": "Tasbeeha Khan",
+//   age: 21
+// };
+
+// console.log(student ["full name"])
+
+// var inst = {
+//     name:"SMIT",
+//     locationn:'aliabad',
+//     PlotNo:346,
+//     accessories: ["computers","blubs","chairs"]
+    
+// }
+
+// for(var i =0; i < inst.accessories.length;i++){
+//     console.log(inst.accessories[i]);
+    
+// }
+
+// console.log(Object.keys(inst)); ['name','location']
+
+
+
+
+
+// var information ={
+//     name:"tasbeeha",
+//     f_name:"anwar",
+//     city:"karachi",
+//     qualification:["matric","inter","bachleors"]
+// }
+
+// for(var i=0 ;i < information.qualification.length;i++)
+//     console.log(`tasbeeha qualification is in below:${information.qualification[i]} [thanku for reading]`)
+
+// console.log(Object.keys(information));
+
+
+
+
+
+// var information ={
+//     name:"tasbeeha",
+//     f_name:"anwar",
+//     city:"karachi",
+//     qualification:["matric","inter","bachleors"]
+// }
+// console.log("tasbeeha qualification is in below");
+// for(var i=0 ;i < information.qualification.length;i++)
+//     console.log(information.qualification[i])
+
+// console.log("thanks for reading");
+
+// console.log(Object.keys(information));
+
+
+// chatgpt task
+
+// var student ={
+//     namea:"tasbeeha",
+//     age:"22",
+//     city:"karachi",
+//     skills:["html","css","java script"]
+// };
+
+// console.log(student["namea"])
+// console.log(student["age"])
+// console.log(student["city"])
+// console.log(student["skills"])
+
+
+
+
+// shallow copy /Spread operator
+
+
+// var inst = {
+//     name: "SMIT",
+//     locationn: "aliabad",
+//     PlotNo: 346,
+//     accessories: ["computers", "bulbs", "chairs"]
+// };
+
+// var newinst = { ...inst}
+
+
+//  inst.locationn = "pib coloni";
+
+
+//  console.log(inst)
+//  console.log(newinst)
+
+
+
+// var inst = {
+//     name: "SMIT",
+//     locationn: "aliabad",
+//     PlotNo: 346,
+//     accessories: ["computers", "bulbs", "chairs"]
+// };
+
+// // Deep copy using JSON methods
+// var deepCopyInst = JSON.parse(JSON.stringify(inst));
+
+// // Update original object
+// inst.locationn = "pib coloni";
+// inst.accessories.push("fans");
+
+// // Check results
+// console.log("Original:", inst);
+// console.log("Deep Copy:", deepCopyInst);
+
+
+
+// var first ={
+// name : "tasbeeha",
+// details: {
+//     number: "three"
+// }
+// }
+
+// var se2nd = JSON.parse(JSON.stringify(first))
+
+// first.details.number = "five";
+
+// console.log(first);
+// console.log(se2nd);
+
+
+
+
+
