@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
 </head>
-<body>
-    
-<!-- <img src="https://img.freepik.com/free-vector/realistic-light-bulb-with-electricity_23-2149129410.jpg" alt="" id="bulb">
+
+<body class="container bg-dark">
+
+    <!-- <img src="https://img.freepik.com/free-vector/realistic-light-bulb-with-electricity_23-2149129410.jpg" alt="" id="bulb">
 <button onclick="toggleBulb()">Toggle</button> -->
-<!-- <button onclick="ofBulb()" >of</button></button> -->
+    <!-- <button onclick="ofBulb()" >of</button></button> -->
+
+<nav class="navbar bg-light">
+  <div class="container-fluid">
+    <form class="d-flex" role="search">
+      <input  id ="news" class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button onclick ="getNews()" class=" btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+    <div class="row m-5" id="getDiv">
+
+    </div>
 
 
 </body>
@@ -22,7 +39,7 @@
     // console.log(name)
 
 
-  
+
 
 
     // let namess = "Tasbeeha"
@@ -38,183 +55,215 @@
     // name = "kahn"
     // console.log(name)
 
+
+    // const arr = ["tasbe","marya","samee"]
+    // arr  [0] = "hania"
+    // console.log(arr)
+
+
+
+    // const arr = ["tasbe","marya","samee"]
+    // arr   = ["hania","mana","haya"]
+    // console.log(arr)
+
+
+    // const  obj = {
+    //     name : "tasbee",
+    //     fulname : "khana"
+    // }
+
+    // obj.name = "marajm"
+    // console.log(obj)
+
+
+    // let arr1 = [1,3,3,3,3,3,3,3,5,5,5,,77,7,7];
+    // let ar2 =[34,425,54,54,567,6,68,87,];
+    // let arr3 = {...arr1,ar2}
+    // console.log(arr3)
+
+
+    // let obj = {
+    //     first : "1",
+    //     second : "2",
+    //     third : "3"
+    // }
+
+
+    // let obj2 = {
+    //     ...obj,
+    //     lname : "tasbeeha",
+    // }
+
+
+    // console.log(obj2)
+
+    // abc()
+
+    // function abc(){
+    //     console.log("hello world")   normal function/Traditional function
+    // }
+
+    // var a 
+
+    // console.log(a)
+    // = "abcd"
+
+    // let food = function(){
+    //     console.log("tasbeeha")      function expession
+    // }
+    // food()
+
+
+    // errow fucntion /fat arrow function
+
+
+    // let abc = a =>{
+    //     console.log(a)
+    // }
+
+    // abc("tasbeeha")
+
+    // let sum = (a,b) => {
+    //     console.log(a+b)
+    // }
+    // sum(10,10);
+
+
+    // let eq = (a,b,c) =>  a+b-c
+
+    // console.log(eq(1,2,3))
+
+
+    // var a = ( 5 ==6 ? "han oka" : "nhi hai bhai")
+
+    // console.log(a)
+
+
+    // let onBulb = () => {
+    //     let a = document.getElementById("bulb")
+    //     a.src = "https://img.freepik.com/free-vector/realistic-light-bulb-with-electricity_23-2149129410.jpg"
+
+    // }
+
+
+
+    // let ofBulb = () => {
+    //     let a = document.getElementById("bulb")
+    //     a.src = "https://i.pinimg.com/564x/e0/fd/25/e0fd25f9127a9a109a0648c83ee61643.jpg"
+    // }
+
+
+    // let bulb = document.getElementById("bulb");
+    // let isOn = false;
+
+    // function toggleBulb() {
+    //   bulb.src = isOn
+    //     ? "https://i.pinimg.com/564x/e0/fd/25/e0fd25f9127a9a109a0648c83ee61643.jpg"
+    //     : "https://img.freepik.com/free-vector/realistic-light-bulb-with-electricity_23-2149129410.jpg";
+    //   isOn = !isOn;}
+
+
+
+    // Promise
+
+    // let Pro = new Promise((resolve,reject) => {
+    //   let khilao = " khilao"
+    //   if(khilao =="zinger khilao"){
+    //     resolve("han bhai theekh hai")
+    //   }
+    //   else{
+    //     reject("nhi bhai sahi nhi hia")
+    //   }
+    // })
+
+    // Pro.then((data) => {
+    //     console.log(data)
+    // })
+    // .catch((error) =>{
+    //     console.log(error)
+    // })
+
+
+
+
+    // let pak = new Promise((res,rej) =>{
+    //     let pakistan = "pakistan"
+    //     if(pakistan == "pakistansdasfasd"){
+    //         res("paksitan jeet gayay hai world ")
+    //     } 
+    //     else{
+    //         rej("bhai paksiatan hamesha ki tarha yeh world cup bhi har agay hai")
+    //     }
+    // });
+
+
+    // pak.then(data => console.log(data))
+    // .catch(error=>  console.log(error));
+
+
+    // Destructuring   (Array,Object)
+
+    // let arr = ["Ali","Rehman",1,2,3,4]
+    // let [a,b,c,d,e,f] = arr 
+    // console.log(a)
+
+
+
+    // const obj = {
+    //     abc : "Abcd",
+    //     def : "24",
+    //     ghi : "hello world",
+    //     arr : [1,2,3]
+    // }
+
+    // const{abc ,def, ghi , arr} = obj
+    // const[a,b,c] = arr
+
+    // console.log(a)
+
+
+
+
+
+    // API
+
+
+    // fetch('https://jsonplaceholder.typicode.com/photos')
+    // .then(data => data.json())
+    // .then(data => console.log(data))
+    // .catch(error => console.log(error))
+
+    let = getDiv = document.getElementById("getDiv")
+     let = getSearch = document.getElementById("news")
+
+
+    let getNews = () =>{
+
+
+
+        fetch(`https://newsapi.org/v2/everything?q=${getSearch.value}&from=2025-09-27&sortBy=publishedAt&apiKey=6de31bcf0ca449419d863e57e16b7140`)
+        .then(data => data.json())
+        .then(data => {
+
+            for (let i = 0; i < data.articles.length; i++) {
+                getDiv.innerHTML += `<div class="card m-4" style="width: 18rem;">
+                    <img src="${data.articles[i].urlToImage}" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+           <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>`
+            }
+        }
+        )
+        .catch(error => console.log(error))
+
+
+    }
+
+
     
-// const arr = ["tasbe","marya","samee"]
-// arr  [0] = "hania"
-// console.log(arr)
-
-
-
-// const arr = ["tasbe","marya","samee"]
-// arr   = ["hania","mana","haya"]
-// console.log(arr)
-
-
-// const  obj = {
-//     name : "tasbee",
-//     fulname : "khana"
-// }
-
-// obj.name = "marajm"
-// console.log(obj)
-
-
-// let arr1 = [1,3,3,3,3,3,3,3,5,5,5,,77,7,7];
-// let ar2 =[34,425,54,54,567,6,68,87,];
-// let arr3 = {...arr1,ar2}
-// console.log(arr3)
-
-
-// let obj = {
-//     first : "1",
-//     second : "2",
-//     third : "3"
-// }
-
-
-// let obj2 = {
-//     ...obj,
-//     lname : "tasbeeha",
-// }
-
-
-// console.log(obj2)
-
-// abc()
-
-// function abc(){
-//     console.log("hello world")   normal function/Traditional function
-// }
-
-// var a 
-
-// console.log(a)
-// = "abcd"
-
-// let food = function(){
-//     console.log("tasbeeha")      function expession
-// }
-// food()
-
-
-// errow fucntion /fat arrow function
-
-
-// let abc = a =>{
-//     console.log(a)
-// }
-
-// abc("tasbeeha")
-
-// let sum = (a,b) => {
-//     console.log(a+b)
-// }
-// sum(10,10);
-
-
-// let eq = (a,b,c) =>  a+b-c
-
-// console.log(eq(1,2,3))
-
-
-// var a = ( 5 ==6 ? "han oka" : "nhi hai bhai")
-
-// console.log(a)
-
-
-// let onBulb = () => {
-//     let a = document.getElementById("bulb")
-//     a.src = "https://img.freepik.com/free-vector/realistic-light-bulb-with-electricity_23-2149129410.jpg"
-
-// }
-
-
-
-// let ofBulb = () => {
-//     let a = document.getElementById("bulb")
-//     a.src = "https://i.pinimg.com/564x/e0/fd/25/e0fd25f9127a9a109a0648c83ee61643.jpg"
-// }
-
-
-// let bulb = document.getElementById("bulb");
-// let isOn = false;
-
-// function toggleBulb() {
-//   bulb.src = isOn
-//     ? "https://i.pinimg.com/564x/e0/fd/25/e0fd25f9127a9a109a0648c83ee61643.jpg"
-//     : "https://img.freepik.com/free-vector/realistic-light-bulb-with-electricity_23-2149129410.jpg";
-//   isOn = !isOn;}
-
-
-
-// Promise
-
-// let Pro = new Promise((resolve,reject) => {
-//   let khilao = " khilao"
-//   if(khilao =="zinger khilao"){
-//     resolve("han bhai theekh hai")
-//   }
-//   else{
-//     reject("nhi bhai sahi nhi hia")
-//   }
-// })
-
-// Pro.then((data) => {
-//     console.log(data)
-// })
-// .catch((error) =>{
-//     console.log(error)
-// })
-
-
-
-
-// let pak = new Promise((res,rej) =>{
-//     let pakistan = "pakistan"
-//     if(pakistan == "pakistansdasfasd"){
-//         res("paksitan jeet gayay hai world ")
-//     } 
-//     else{
-//         rej("bhai paksiatan hamesha ki tarha yeh world cup bhi har agay hai")
-//     }
-// });
-
-
-// pak.then(data => console.log(data))
-// .catch(error=>  console.log(error));
-
-
-// Destructuring   (Array,Object)
-
-// let arr = ["Ali","Rehman",1,2,3,4]
-// let [a,b,c,d,e,f] = arr 
-// console.log(a)
-
-
-
-// const obj = {
-//     abc : "Abcd",
-//     def : "24",
-//     ghi : "hello world",
-//     arr : [1,2,3]
-// }
-
-// const{abc ,def, ghi , arr} = obj
-// const[a,b,c] = arr
-
-// console.log(a)
-
-
-
-
-
-// API
-
-
-// fetch('https://jsonplaceholder.typicode.com/photos')
-// .then(data => data.json())
-// .then(data => console.log(data))
-// .catch(error => console.log(error))
-
 </script>
+
 </html>
