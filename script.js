@@ -1664,12 +1664,85 @@ console.log(inst[ "Area"]);*/
 
 // var se2nd = JSON.parse(JSON.stringify(first))
 
-// first.details.number = "five";
+// first.details.number = "five";                 
 
 // console.log(first);
 // console.log(se2nd);
 
 
 
+// test practice 40 to 60
+
+// switch statement
+
+// var day = "sunday"
+
+// switch (day) {
+//     case "monday":
+//         alert("hello");
+//         break;
+
+//         case "tuesday" :
+//             alert("vdsjbv");
+//         break;
+
+//     default:
+//         alert("hfdjfmt")
+// }
 
 
+// var i = 0;
+// while(1<10){
+//     console.log(i)
+//     i++
+
+// }
+
+
+// var i = 0 ;
+// do{
+//     console.log(i)
+//     i++
+// }while(i<0)
+
+
+// while loop
+
+// var i = 5;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i < 5);
+
+
+
+// function abc(){
+//     if(event.keyCode === 13){
+//         console.log("sumbit")
+//     }
+// }
+
+
+// function foo(){
+//     console.log("test");
+// }
+
+// window.onkeydown = foo;
+
+
+// var left = 0;
+
+// function abc(){
+//         console.log(event.keyCode)
+//     var character = document.getElementById("character");
+// if(event.keyCode === 68){
+//     left = left +10;
+//     character.style.left = left + "px"
+// }
+// if(event.keyCode === 65){
+//       left = left -10;
+//     character.style.left = left + "px"
+// }
+// }
+
+// window.onkeydown = abc;
